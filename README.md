@@ -2,28 +2,70 @@
 
 [![Test Python Versions](https://github.com/nogibjj/tinayi_week4_test/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/tinayi_week4_test/actions/workflows/cicd.yml)
 
-IDS 706 Individual Project 1
-
-Continuous Integration using GitHub Actions of Python Data Science Project
-
-Demo Video: https://youtu.be/ZCTx2F_Q30Q
-
 ### Goal
 
-+ establish a CodeSpaces environment that automates the process of loading a dataset, generating descriptive statistics on the dataset, and creating data visualizations of the dataset using `Pandas` and `matplotlib`, utilizing GitHub Actions. 
+GitHub Actions Matrix Build for Multiple Python Versions
+
+### Preparations 
++ I used tinayi_Continuous_Integration_Python as a template for this project
+
++ The template establishes a CodeSpaces environment that automates the process of loading a dataset, generating descriptive statistics on the dataset, and creating data visualizations of the dataset using `Pandas` and `matplotlib`, utilizing GitHub Actions. 
 
 The workflow includes running a Makefile to perform tasks such as installation (`make install`), testing (`make test`), code formatting (`make format`) with Python Black, linting (`make lint`) with Ruff, and an all-inclusive task (`make all`). This automation streamlines the data analysis process and enhances code quality.
+  
+### Overview
++ Set up a GitHub Actions workflow
+  
++ Test across at least 3 different Python versions
+  
++ Correctly configured GitHub Actions Matrix
 
-### Preperation
++ Deliverables
+  
+  + GitHub repository
+    
+  + Link to successful GitHub Actions Matrix run
+ 
+### Description 
+1. Create cicd.yml file in GitHub Actions to set up CI/CD workflow
 
-+ I used the IDS-706-Python-GitHub-template for this project. This template includes a `Makefile`, `requirements.txt`, `.devcontainer`, `.gitignore`, `GitHubActions`, and `Readme`.
+3. In the cicd.yml file, test across 3 different Python versions: 3.8, 3.9, 3.10.x, 3.11
 
-+ I downloaded the `Heart Attack Analysis & Prediction Dataset` from Kaggle.
+<img width="673" alt="Screen Shot 2023-09-22 at 5 48 04 PM" src="https://github.com/nogibjj/tinayi_week4_mini_project/assets/143360909/b2cfcdf8-e759-4385-87d1-d994935864ae">
+   
+5. Run the workflow and correctly configured Github Actions Matrix
+
+<img width="270" alt="Screen Shot 2023-09-22 at 5 44 04 PM" src="https://github.com/nogibjj/tinayi_week4_mini_project/assets/143360909/908913db-ed36-4432-b6e0-cccc0cd71143">
+
+<img width="373" alt="Screen Shot 2023-09-22 at 5 44 17 PM" src="https://github.com/nogibjj/tinayi_week4_mini_project/assets/143360909/cbe39348-03de-4a44-a609-1da06fc19552">
+   
+7. Link to successful GitHub Actions Matrix run
+
+https://github.com/nogibjj/tinayi_week4_mini_project/actions/runs/6269559616
+
+[![Test Python Versions](https://github.com/nogibjj/tinayi_week4_mini_project/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/tinayi_week4_mini_project/actions/workflows/cicd.yml)
+
+### Check Format and Test Approval Images
+
++ install code `make install`
+  
+<img width="1033" alt="Screen Shot 2023-09-16 at 5 28 02 PM" src="https://github.com/nogibjj/tinayi_individual_project1/assets/143360909/190bdd58-e7e7-46e6-bcbc-ef0341884c95">
+
++ lint code `make lint`
++ format code `make format`
++ test code `make test`
+
+<img width="1023" alt="Screen Shot 2023-09-16 at 6 46 49 PM" src="https://github.com/nogibjj/tinayi_individual_project1/assets/143360909/3b218acf-5a3e-4577-89b7-e3b75556596b">
+
++ code `make all` executes install, lint, format, and test targets
+
+<img width="1020" alt="Screen Shot 2023-09-16 at 6 47 15 PM" src="https://github.com/nogibjj/tinayi_individual_project1/assets/143360909/773f9d6f-6fe2-46a8-872d-9b9f47c1fd94">
+
+### Detailed Overview of tinayi_Continuous_Integration_Python Project
 
 ### Dataset Description
 
 `Heart Attack Analysis & Prediction Dataset` (simplify as `heart.csv`) is a csv file containing related information of 302 randomly picked people and their respective information including age, sex, exercise induced angina, number of major vessels, chest pain type, resting blood pressure, cholestoral, fasting blood sugar, resting electrocardiographic results, and chances of heart attack.
-
 
 #### [Resources](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset) 
 
@@ -269,18 +311,4 @@ Step 5: I generated the summary report (PDF) from Jupyter Notebook
 
 #### [Summary Report PDF](./Summary-Report.pdf)
 
-### Check Format and Test Approval Images
 
-+ install code `make install`
-  
-<img width="1033" alt="Screen Shot 2023-09-16 at 5 28 02 PM" src="https://github.com/nogibjj/tinayi_individual_project1/assets/143360909/190bdd58-e7e7-46e6-bcbc-ef0341884c95">
-
-+ lint code `make lint`
-+ format code `make format`
-+ test code `make test`
-
-<img width="1023" alt="Screen Shot 2023-09-16 at 6 46 49 PM" src="https://github.com/nogibjj/tinayi_individual_project1/assets/143360909/3b218acf-5a3e-4577-89b7-e3b75556596b">
-
-+ code `make all` executes install, lint, format, and test targets
-
-<img width="1020" alt="Screen Shot 2023-09-16 at 6 47 15 PM" src="https://github.com/nogibjj/tinayi_individual_project1/assets/143360909/773f9d6f-6fe2-46a8-872d-9b9f47c1fd94">
