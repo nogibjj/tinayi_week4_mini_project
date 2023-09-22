@@ -1,12 +1,6 @@
-## Continuous Integration using GitHub Actions of Python Data Science Project
+## Week4 Mini Project
 
-[![Install](https://github.com/nogibjj/tinayi_individual_project1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/tinayi_individual_project1/actions/workflows/install.yml)
-
-[![Lint](https://github.com/nogibjj/tinayi_individual_project1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/tinayi_individual_project1/actions/workflows/lint.yml)
-
-[![Format](https://github.com/nogibjj/tinayi_individual_project1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/tinayi_individual_project1/actions/workflows/format.yml)
-
-[![Test](https://github.com/nogibjj/tinayi_individual_project1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/tinayi_individual_project1/actions/workflows/test.yml)
+[![Test Python Versions](https://github.com/nogibjj/tinayi_week4_test/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/tinayi_week4_test/actions/workflows/cicd.yml)
 
 IDS 706 Individual Project 1
 
