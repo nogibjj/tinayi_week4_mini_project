@@ -16,7 +16,7 @@ The workflow includes running a Makefile to perform tasks such as installation (
 ### Overview
 + Set up a GitHub Actions workflow
   
-+ Test across at least 3 different Python versions
++ Test across at least 4 different Python versions
   
 + Correctly configured GitHub Actions Matrix
 
@@ -29,7 +29,7 @@ The workflow includes running a Makefile to perform tasks such as installation (
 ### Description 
 1. Create cicd.yml file in GitHub Actions to set up CI/CD workflow
 
-3. In the cicd.yml file, test across 3 different Python versions: 3.8, 3.9, 3.10.x, 3.11
+3. In the cicd.yml file, test across 4 different Python versions: 3.8, 3.9, 3.10.x, 3.11
 
 <img width="673" alt="Screen Shot 2023-09-22 at 5 48 04 PM" src="https://github.com/nogibjj/tinayi_week4_mini_project/assets/143360909/b2cfcdf8-e759-4385-87d1-d994935864ae">
    
